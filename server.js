@@ -57,7 +57,6 @@ const fileFilter = function (req, file, cb) {
  
 
 const store = new MongodbStore({
-  uri: 'mongodb+srv://vignesh:VickySanjay2022@cluster0.x3zgz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
   collection: 'sessions',
   expires: 1000 * 60 * 60 * 4,
 });
